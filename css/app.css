@@ -1,5 +1,4 @@
 .map__image{
-	width: 50%;
 	float:left;
 }
 
@@ -15,8 +14,7 @@
 }
 
 .map__list{
-	width: 50%;
-	float:right;
+	float:left;
 }
 
 .map__list a{
@@ -24,3 +22,24 @@
 	text-decoration:none;
 	transition: color 0.3s;
 }
+
+
+.mand {
+	fill: rgb(228, 147, 6) !important;
+}
+
+.land {
+	fill: rgb(24, 99, 3) !important;
+  }
+
+.yand {
+	fill: url(#RadialGradient1);
+}
+
+.pand {
+	fill: rgb(243, 6, 6) !important;
+  }
+
+  .pand:hover, .land:hover, .mand:hover {
+	fill: #666666 !important;
+  }
